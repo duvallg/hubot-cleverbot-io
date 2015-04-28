@@ -16,7 +16,7 @@
 
 (function() {
     var cleverbot = require("cleverbot.io");
-    var bot = new cleverbot("zcgauapUpqnXDeOo", "xAQYaCpTjLrPL9d1uvhx0MmuwyAx5J0D");
+    bot = new cleverbot("YOUR_API_USER", "YOUR_API_KEY");
     module.exports = function(robot) {
         var findSelf = new RegExp('^[@]?(' + robot.name + ')' + (robot.alias ? '|(' + robot.alias + ')' : '') + '[:,]?\\s', 'i');
         robot.hear(/.*/i, function(msg) {
