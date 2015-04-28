@@ -1,0 +1,22 @@
+{
+  "name": "hubot-cleverbot-io",
+  "version": "0.0.1",
+  "description": "Cleverbot.io integration for hubot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duvallg/hubot-cleverbot-io.git"
+  },
+  "main": "cleverbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hubot",
+    "cleverbot-io"
+  ],
+  "author": "Gary DuVall <duvallg@op9.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cleverbot.io": "^1.0.3"
+  }
+}
