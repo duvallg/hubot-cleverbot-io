@@ -17,6 +17,7 @@
   "author": "Gary DuVall <duvallg@op9.com>",
   "license": "MIT",
   "dependencies": {
-    "cleverbot.io": "^1.0.4"
+    "cleverbot.io": "^1.0.4",
+    "jsonloader": "^1.0.1"
   }
 }
